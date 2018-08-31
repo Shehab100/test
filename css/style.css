@@ -1,0 +1,23 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body{background-color: #000}
+
+/*start about me*/
+.about-me h1{color: #333;font-weight: 700;font-size: 45} 
+.about-me .row{margin-top: 40}
+.about-me .row img{width: 100%}
+.about-me p{font-size: 16px;color:#868E96;font-weight: 550;line-height: 1.3;padding: 5px 0 }
+.about-me h2{color: #333;font-weight: 650;font-size: 35}
+.about-me span{color: #555;font-weight: 450;font-size: 20;padding-bottom: 10px}
+.about-me .row i{background-color: #fff; color: #555;border: 1px solid #555;border-radius: 0;margin-left: 15px;padding: 10px; text-align: center;transition: all 0.5s;cursor: pointer;padding: 3px}
+.about-me .row i:hover{background-color:#f00;color: #fff}
+/*end about me*/
+/*start skills*/
+.skills{padding-bottom: 30px; padding-top: 20px; overflow: hidden}
+.skills h2{color: #666;font-size: 35px;font-weight: 600;padding-bottom: 10px}
+.skills p{font-size: 16px;color:#868E96;font-weight: 550;line-height: 1.3}
+.skills .technique{margin: 15px 0}
+.skills .technique h3{color: #333;font-size: 16px}
+.skills .technique div{background: #F5F5F5;color:#FFF;height: 15px;border-radius: 50px; }
+.skills .technique div span{background: #EC3237;height: 15px;width: 80%;display: block;line-height: 15px;text-align: right}
+.skills button{margin-top: 35px;padding: 10px 33px;font-size: 16px;font-weight: 500;border-radius: 0;}
+/*end skills*/
