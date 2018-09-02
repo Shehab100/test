@@ -8,6 +8,26 @@ body {
     background-color: #000
 }
 
+/*start slider*/
+.slider{
+    background-image: url(../img/header-bg.jpg);
+    height: 700px;
+    background-size: 100% 100%;
+}
+
+.slider h5 {
+    color: #012B43;
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 1px 7px 20px #016194;
+    margin-top: 300;
+    text-align: center;
+
+}
+
+
+/*end slider*/
+
 /*start about me*/
 
 .about-me h1 {
@@ -147,7 +167,7 @@ body {
 
 .servises .shuu {
     margin-top: 20px;
-   
+
 }
 
 .servises .serv {
