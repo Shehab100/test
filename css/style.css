@@ -8,8 +8,46 @@ body {
     background-color: #000
 }
 
+/* start navbar*/
+
+.navbar-expand-lg {
+    background-color: #000;
+}
+
+.navbar-brand span:first-child {
+    color: chartreuse;
+    font-size: 800;
+    font-size: 25px;
+}
+
+.navbar-brand span:last-child {
+    color: #00f;
+    font-size: 800;
+    font-size: 25px
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18;
+    text-transform: uppercase;
+    margin-left: 20;
+    color: #444;
+    font-weight: 500;
+    transition: all 1s
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #009
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f00
+}
+
+/*end navbar*/
+
 /*start slider*/
-.slider{
+
+.slider {
     background-image: url(../img/header-bg.jpg);
     height: 700px;
     background-size: 100% 100%;
